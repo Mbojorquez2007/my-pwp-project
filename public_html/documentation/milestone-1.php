@@ -1,5 +1,4 @@
-		<img src="image/Untitled%20Diagram%20(1).jpg">
-		<html>
+	<html>
 			<head><meta charset="utf-8"/>
 				<title>milestone-1</title>
 			</head>
@@ -20,11 +19,9 @@
 			<table>
 				<tr><th>Frustrations</th>
 					<th>Need to know</th></tr>
-				<tr></tr>
-				<tr>
-					<td>Has limited time to find a person to do her website. Doesn't know many people. Is not a technical person.</td>
-					<td>Jasmine likes the idea of having her own website but doesn't know where to start.
-						This is Jasmine's first website</td>
+					<tr>
+						<td>Has limited time to find a person to do her website. Doesn't know many people. Is not a technical person.</td>
+					<td>Jasmine likes the idea of having her own website but doesn't know where to start. This is Jasmine's first website</td>
 				</tr>
 			</table>
 
@@ -53,27 +50,6 @@
 				<li>Jasmine creates a profile for her contact information.</li>
 				<li>Jasmine creates a user account.</li>
 				<li>Jasmine creates a description of her needs in the comments</li>
-			</ol>
-			<h2>Conceptual model</h2>
-			<ul>
-				<li><strong>Profile</strong></li>
-				<li>profileId (primary key)</li>
-				<li>profileActivationToken (account verification)</li>
-				<li>profileAtHandle</li>
-				<li>profileHash (account password)</li>
-				<li>profilePhone</li>
-				<li>profileSalt (account password)</li></ul>
-			<ul>
-				<li><strong>website</strong></li>
-				<li>ProfileId</li>
-				<li>websiteId</li>
-				<li>websiteContent</li>
-			</ul>
-			<h2>Relations</h2>
-			<ol>
-				<li>Multiple users can comment on one profile</li>
-				<li>Multiple users can create a account on one profile</li>
-				<li>Muliple user create account contact information.</li>
 			</ol>
 
 		</html>
