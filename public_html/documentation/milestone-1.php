@@ -7,8 +7,7 @@
 		<h1>Jasmine</h1>
 		<img src=  "image/chef.jpg" alt="chef">
 		<p>Purpose: To expose my professional talents to a broader audience. My interest is in working with freelance clients in the food,beverage,and hospitality industry
-			Audience: This project is to attract business owners who need a web developer or a company that is hiring a web developer.
-			Goal: The goal is to get a job in web design.</p>
+			Audience: This project is to attract business owners who need a web developer or a company that is hiring a web developer.</p>
 		<p>Jasmine is new to New Mexico and needs help designing
 			her website for her business. She is a personal chef and recently moved from Seattle were she was one of Bill Gate's chef. She is excited about New Mexico
 			but needs a website to refer her potentials clients and to showcase her work and experience</p>
