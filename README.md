@@ -31,4 +31,4 @@ As a dedicated freelancer, you'd be more focused on making sales to a particular
 
 Nice job on nailing most of the technical issues too. Your .gitignore is still in the wrong place - it needs to be moved into the "project root" alongside the README and LICENSE. This is actually pretty important to ensure the correct files are ignored properly - so please make that change asap. Beware of spaces around your HTML attributes and values - see line 8. No spaces around the "=". And the Interaction looks like something you might create for a hypothetical project you would be creating _for Jasmine as your client_, and that isn't a part of this project.
 
-Overall nice work on the changes, and I look forward to seeing your design choices in Milestone 2a. Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+Overall nice work on the changes, and I look forward to seeing your design choices in Milestone 2a. Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)..
