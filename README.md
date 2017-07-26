@@ -21,3 +21,14 @@ Unfortunately I can only pass your Milestone 1 at [Tier I](https://bootcamp-code
 - remove the .gitignore file inside of `/documentation`. You only need the .gitignore at the root of the project.
 - Add `.DS_Store` to .gitignore
 - In .gitignore line 2 should be `/.idea`, and 3 should be `/vendor`. These need to be fixed.
+
+### Updated Milestone 1 Feedback - 7/26/17
+Nice work on the updated Use Case. Giving thought and consideration to how an end-user will use your site is a valuable exercise that can help guide your design and content strategy phase to come. 
+
+Generally speaking, a potential contract client who is looking for a website for her small business would likely be looking for specific things on your site that potential employers within IT probably won't be... such as the services you provide and specialize in (do you do the kind of work she needs?), how to contact you for a consultation (is that a free consult, and what does that include?), etc. 
+
+As a dedicated freelancer, you'd be more focused on making sales to a particular client base than meeting the requirements of a hiring manager or senior IT professional. This should have a definite impact on your content strategy and design phase going forward.
+
+Nice job on nailing most of the technical issues too. Your .gitignore is still in the wrong place - it needs to be moved into the "project root" alongside the README and LICENSE. This is actually pretty important to ensure the correct files are ignored properly - so please make that change asap. Beware of spaces around your HTML attributes and values - see line 8. No spaces around the "=". And the Interaction looks like something you might create for a hypothetical project you would be creating _for Jasmine as your client_, and that isn't a part of this project.
+
+Overall nice work on the changes, and I look forward to seeing your design choices in Milestone 2a. Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
