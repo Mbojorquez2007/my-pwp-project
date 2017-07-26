@@ -5,8 +5,8 @@
 	</head>
 	<body>
 		<h1>Jasmine</h1>
-		<img src=  "image/chef.jpg">
-		<p>Purpose: To expose my professional talents to a broader audience.
+		<img src=  "image/chef.jpg" alt="chef">
+		<p>Purpose: To expose my professional talents to a broader audience. My interest is in working with freelance clients in the food,beverage,and hospitality industry
 			Audience: This project is to attract business owners who need a web developer or a company that is hiring a web developer.
 			Goal: The goal is to get a job in web design.</p>
 		<p>Jasmine is new to New Mexico and needs help designing
@@ -15,12 +15,11 @@
 
 		<table>
 			<tr>
-
 				<th>Frustrations</th>
 				<th>Need to know</th></tr>
 			<tr></tr>
 			<tr>
-				<td>Has limited time to find a person to do her website. Doesn't know many people. Is not a technical person.</td>
+				<td>Has limited time to find a person to do her website. She doesn't know many people and she does not consider herself  a technical person.</td>
 				<td>Jasmine likes the idea of having her own website but doesn't know where to start. This is Jasmine's first website</td>
 			</tr>
 		</table>
@@ -38,11 +37,11 @@
 		</ol>
 			<h2>Use case</h2>
 		<ol>
-			<li>Jasmine will use this website to start her new business and get the attention of a new audience.Jasmine was looked over many websites to help her do this.
-				She likes mine in particular because it struck her as chich and professional.
-				She plans on meeting with me as soon as possible to start her own web page.</li>
+			<li>Jasmine has received my business card and looked at my website in regards of hiring me to do her personal website. After receiving my resume, she has me as a potential candidates along with a few other web developers she looked at on LinkedIn.
+				She has looked at my LinkedIn profile, and after considering my work history, my website and recommendations from others, she decides to include me in a group of people she would like to interview.
+				It is 2:30PM on Thursday afternoon, and Jasmine is currently at her home office. Jasmine would like to get in contact with some of her candidates and set up times to meet in person. She is anxious to build up her clientele in a new city, and finding someone to fit her needs has taken away additional she needs to craft her newest creations in the kitchen.</li>
 		</ol>
-			<h2>Ineraction</h2>
+			<h2>Interaction</h2>
 		<ol>
 			<li>Jasmine goes to webpage</li>
 			<li>browser loads webpage</li>
