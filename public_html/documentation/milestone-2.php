@@ -17,7 +17,7 @@
 		<h1>Portfolio</h1>
 		<p>This section will have pictures of my previous projects with title and description of the project underneath.</p>
 		<h1>Contact me</h1>
-		<p>This section will have a contact me form where people can put in name, email and message to contact me directly</p>
+		<p>This section will have a contact me form where people can contact me directly</p>
 		<img src="image/wireframe1.png" alt="wireframe1"/>
 		<img src="image/wireframe2.png" alt="wireframe2"/>
 	</body>
