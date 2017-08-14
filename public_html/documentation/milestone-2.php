@@ -17,7 +17,9 @@
 		<p>This section will have pictures of my previous projects with title and description of the project underneath.</p>
 		<h1>The Contact me section</h1>
 		<p>This section will have a contact me form where people can put in name, email and phone and message and ask questions to me directly to contact me directly</p>
-		<img src="image/" alt="image"/>
-		<img src="image/" alt=""/>
+		<img src="image/mock1.jpg" alt="mock1">
+		<img src="image/mock2.jpg" alt="mock2">
+		<img src="image/mock3.jpg" alt="mock3">
+		<img src="image/mock4.jpg" alt="mock4">
 	</body>
 
