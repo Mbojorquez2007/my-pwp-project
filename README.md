@@ -31,4 +31,19 @@ As a dedicated freelancer, you'd be more focused on making sales to a particular
 
 Nice job on nailing most of the technical issues too. Your .gitignore is still in the wrong place - it needs to be moved into the "project root" alongside the README and LICENSE. This is actually pretty important to ensure the correct files are ignored properly - so please make that change asap. Beware of spaces around your HTML attributes and values - see line 8. No spaces around the "=". And the Interaction looks like something you might create for a hypothetical project you would be creating _for Jasmine as your client_, and that isn't a part of this project.
 
-Overall nice work on the changes, and I look forward to seeing your design choices in Milestone 2a. Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)..
+Overall nice work on the changes, and I look forward to seeing your design choices in Milestone 2a. Your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## Milestone 2&alpha; Feedback
+This is better, and will provide you with a sufficient guide for your development phase ahead. If you plan on doing more front end work and/or needing to create wireframes for professional contracts, employers, or clients, I recommend practicing this process a bit more for a more professional and polished presentation. This is sufficient for a very basic student project, but not for a professional job.
+
+Also, please make sure that you're committing and pushing regularly. The last commit I see on your project was 13 days ago, and this is a definite concern.
+
+I see that your Portfolio section and About Me section are flipped on mobile vs. desktop. I'm not sure if this is intentional, or just a mistake. If it's intentional, you can build this using the built-in Bootstrap **push** and **pull** grid classes, but it might be tricky. I would probably consider this a "nice-to-have" feature... not totally critical, and potentially tricky. But some useful tips can be found here: https://getbootstrap.com/docs/3.3/css/#grid-column-ordering 
+
+There are a few different ways you can selectively alter the navbar placement on desktop vs. mobile. One method might be to use jQuery. What I might consider doing is building the site with the navbar fixed at the bottom for mobile first, and once the screen is greater than a certain width, using jQuery to remove the class that sets the fixed placement. There is a `navbar-fixed-bottom` class in Bootstrap that you can use. You could also achieve the same thing using CSS - with a @media query.
+
+You might want to have a look at the Bootstrap thumbnail component for your Portfolio items. https://getbootstrap.com/docs/3.3/components/#thumbnails
+
+Your Milestone 2a passes at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP. You'll want to build your PWP page in the following location: `public_html/index.php`, and the next Milestone will be a mid-development checkin. 
+
+You'll want to make headway on this project ASAP, since you're behind schedule on this project. I would budget no less than an hour a day **minimum**  (preferably more), on PWP to get you caught up before Milestone 2b checkins next week. PWP is due 9/6/17, 3 weeks from today. Get as much built as you can, especially the contact form - I am planning to demo the PHP/Swiftmailer/JavaScript form functionality on Monday 8/28. 
