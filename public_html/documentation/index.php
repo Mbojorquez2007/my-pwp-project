@@ -24,18 +24,18 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<h3>Circle</h3>
-					<p>The .img-circle class shapes the image to a circle (not available in IE8):</p>
+					<p>The.img-circle class shapes the image to a circle (not available in IE8):</p>
 					<img src="image/meme.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 				</div>
 				<div class="col-sm-4">
-					<h3>Column 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					<h3>Circle</h3>
+					<p>The.img-circle class shapes the image to a circle (not available in IE8).</p>
+					<img src="image/meme.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 				</div>
 				<div class="col-sm-4">
-					<h3>Column 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+					<h3>Circle</h3>
+					<p>The.img-circle class shapes the image to a circle (not available in IE8).</p>
+					<img src="image/meme.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
 				</div>
 			</div>
 		</div>
