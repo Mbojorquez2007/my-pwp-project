@@ -1,65 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<style>
+		<meta charset="utf-8"/>
 
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	</head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-		<style>
-		div.gallery {
-			border: 1px solid #ccc;
-		}
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		div.gallery:hover {
-			border: 1px solid #777;
-		}
+		<!-- Theme CSS -->
+		<link href="css/stylesheets.css" rel="stylesheet">
 
-		div.gallery img {
-			width: 100%;
-			height: auto;
-		}
-
-		div.desc {
-			padding: 15px;
-			text-align: center;
-		}
-
-		* {
-			box-sizing: border-box;
-		}
-
-		.responsive {
-			padding: 0 6px;
-			float: left;
-			width: 24.99999%;
-		}
-
-		@media only screen and (max-width: 700px){
-			.responsive {
-				width: 49.99999%;
-				margin: 6px 0;
-			}
-		}
-
-		@media only screen and (max-width: 500px){
-			.responsive {
-				width: 100%;
-			}
-		}
-
-		.clearfix:after {
-			content: "";
-			display: table;
-			clear: both;
-		}
-	</style>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- jQuery - reqiured for Bootstrap Components -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				  crossorigin="anonymous"></script>
 	</head>
 	<body>
 
@@ -67,19 +33,19 @@
 
 			<div class="mySlides fade">
 				<div class="numbertext">1 / 3</div>
-				<img src="img_nature_wide.jpg" style="width:100%">
+				<img src="image/chef.jpg" style="width:100%">
 				<div class="text">Caption Text</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">2 / 3</div>
-				<img src="img_fjords_wide.jpg" style="width:100%">
+				<img src="image/michelle.jpg" style="width:100%">
 				<div class="text">Caption Two</div>
 			</div>
 
 			<div class="mySlides fade">
 				<div class="numbertext">3 / 3</div>
-				<img src="img_mountains_wide.jpg" style="width:100%">
+				<img src="image/chef.jpg" style="width:100%">
 				<div class="text">Caption Three</div>
 			</div>
 
@@ -124,11 +90,10 @@
 			}
 		</script>
 
+
 		<div class="container" style="background-image:('..meme.jpg');">
 		...
 	</div>
-
-	<body>
 
 		<div class="jumbotron text-center">
 			<div class="container-fluid">
@@ -151,8 +116,8 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a href="/w3images/lights.jpg" target="_blank">
-							<img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+						<a href="image/michelle.jpg" target="_blank">
+							<img src="image/michelle.jpg" alt="Lights" style="width:100%">
 							<div class="caption">
 								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
 							</div>
@@ -161,8 +126,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a href="/w3images/nature.jpg" target="_blank">
-							<img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+						<a href="image/michelle.jpg" target="_blank">
+							<img src="image/michelle.jpg" alt="Nature" style="width:100%">
 							<div class="caption">
 								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
 							</div>
@@ -171,8 +136,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a href="/w3images/fjords.jpg" target="_blank">
-							<img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
+						<a href="image/meme.jpg" target="_blank">
+							<img src="image/mock1.jpg" alt="Fjords" style="width:100%">
 							<div class="caption">
 								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
 							</div>
@@ -184,19 +149,19 @@
 			<div class="slideshow-container">
 				<div class="mySlides fade">
 					<div class="numbertext">1 / 3</div>
-					<img src="img1.jpg" style="width:100%">
+					<img src="image/mock3.jpg" style="width:100%">
 					<div class="text">Caption Text</div>
 				</div>
 
 				<div class="mySlides fade">
 					<div class="numbertext">2 / 3</div>
-					<img src="img2.jpg" style="width:100%">
+					<img src="image/mock4.jpg" style="width:100%">
 					<div class="text">Caption Two</div>
 				</div>
 
 				<div class="mySlides fade">
 					<div class="numbertext">3 / 3</div>
-					<img src="img3.jpg" style="width:100%">
+					<img src="image/mock3.jpg" style="width:100%">
 					<div class="text">Caption Three</div>
 				</div>
 
@@ -260,33 +225,6 @@
 				<p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
 				<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
 			</div>
-
-			var slideIndex = 1;
-			showSlides(slideIndex);
-
-			function plusSlides(n) {
-			showSlides(slideIndex += n);
-			}
-
-			function currentSlide(n) {
-			showSlides(slideIndex = n);
-			}
-
-			function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = slides.length}
-			for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex-1].style.display = "block";
-			dots[slideIndex-1].className += " active";
-			}
 
 
 
