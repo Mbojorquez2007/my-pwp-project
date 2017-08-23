@@ -12,7 +12,7 @@
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!-- Theme CSS -->
-		<link href="css/stylesheets.css" rel="stylesheet">
+		<link href="../css/stylesheets.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +39,7 @@
 
 			<div class="mySlides fade">
 				<div class="numbertext">2 / 3</div>
-				<img src="image/michelle.jpg" style="width:100%">
+				<img src="image/meme.jpg" style="width:100%">
 				<div class="text">Caption Two</div>
 			</div>
 
@@ -100,18 +100,18 @@
 			<h1>Michelle Allen</h1>
 			<p>Hi I am a web developer</p>
 				<div class="container">
-					<h2>Circle</h2>
-					<p>The .img-circle class shapes the image to a circle (not available in IE8):</p>
+					<h2>Excellence</h2>
+					<p></p>
 					<img src="image/meme.jpg" class="img-meme.jpg" alt="me" width="358" height="638">
 				</div>
 				<div class="row">
-					<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+					<div class="col-sm-4"></div>
 
 		<div class="container">
 			<h2>Image Gallery</h2>
-			<p>The .thumbnail class can be used to display an image gallery.</p>
-			<p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
-			<p>Click on the images to enlarge them.</p>
+			<p>Awsome stuff I have worked on</p>
+			<p>Things Im proud of</p>
+			<p>Things Im going to work on</p>
 			<div class="row">
 			<div class="row">
 				<div class="col-md-4">
@@ -119,7 +119,7 @@
 						<a href="image/michelle.jpg" target="_blank">
 							<img src="image/michelle.jpg" alt="Lights" style="width:100%">
 							<div class="caption">
-								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+								<p>Inspired</p>
 							</div>
 						</a>
 					</div>
@@ -129,7 +129,7 @@
 						<a href="image/michelle.jpg" target="_blank">
 							<img src="image/michelle.jpg" alt="Nature" style="width:100%">
 							<div class="caption">
-								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+								<p>Loyal, Honest</p>
 							</div>
 						</a>
 					</div>
@@ -137,9 +137,9 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a href="image/meme.jpg" target="_blank">
-							<img src="image/mock1.jpg" alt="Fjords" style="width:100%">
+							<img src="image/mock1.jpg" alt="mock1" style="width:100%">
 							<div class="caption">
-								<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+								<p>Inovated</p>
 							</div>
 						</a>
 					</div>
@@ -150,19 +150,19 @@
 				<div class="mySlides fade">
 					<div class="numbertext">1 / 3</div>
 					<img src="image/mock3.jpg" style="width:100%">
-					<div class="text">Caption Text</div>
+					<div class="text">sososo happy</div>
 				</div>
 
 				<div class="mySlides fade">
 					<div class="numbertext">2 / 3</div>
 					<img src="image/mock4.jpg" style="width:100%">
-					<div class="text">Caption Two</div>
+					<div class="text">beautiful</div>
 				</div>
 
 				<div class="mySlides fade">
 					<div class="numbertext">3 / 3</div>
 					<img src="image/mock3.jpg" style="width:100%">
-					<div class="text">Caption Three</div>
+					<div class="text">Elegent</div>
 				</div>
 
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -178,23 +178,23 @@
 
 
 
-<h1>Hello, world!</h1>
-			<h2>Responsive Image Gallery</h2>
-			<h4>Resize the browser window to see the effect.</h4>
+			<h1>Hello, world!</h1>
+			<h2>My wonderful Gallery</h2>
+			<h4>works of art</h4>
 
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" href="img_fjords.jpg">
-						<img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+					<a target="_blank" href="image/mock4.jpg">
+						<img src="image/mock1.jpg" alt="Trolltunga Norway" width="300" height="200">
 					</a>
-					<div class="desc">Add a description of the image here</div>
+					<div class="desc">Master</div>
 				</div>
 			</div>
 
 
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" href="img_forest.jpg">
+					<a target="_blank" img src="image/meme.jpg.">
 						<img src="img_forest.jpg" alt="Forest" width="600" height="400">
 					</a>
 					<div class="desc">Add a description of the image here</div>
