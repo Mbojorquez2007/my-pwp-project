@@ -194,8 +194,8 @@
 
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" img src="image/meme.jpg.">
-						<img src="img_forest.jpg" alt="Forest" width="600" height="400">
+					<a target="_blank" href= <img src="image/chef.jpg" .">
+						<img src="image/chef.jpg" alt="chef" width="600" height="400">
 					</a>
 					<div class="desc">Add a description of the image here</div>
 				</div>
@@ -203,7 +203,7 @@
 
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" href="img_lights.jpg">
+					<a target="_blank" href="image/imgjpg">
 						<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
 					</a>
 					<div class="desc">Add a description of the image here</div>
@@ -212,8 +212,8 @@
 
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" href="img_mountains.jpg">
-						<img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+					<a> target="_blank" src="image/michelle.jpg">
+						<img src="image/michelle.jpg" alt="Mountains" width="442" height="589">
 					</a>
 					<div class="desc">Add a description of the image here</div>
 				</div>
@@ -222,8 +222,8 @@
 			<div class="clearfix"></div>
 
 			<div style="padding:6px;">
-				<p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-				<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+				<p>full stack web developer.</p>
+				<p>I look forward to working with you.</p>
 			</div>
 
 
