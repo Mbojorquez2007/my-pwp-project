@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<style>
 
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -9,7 +10,121 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	</head>
-	<div class="container" style="background-image:('.meme.jpg');">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		<style>
+		div.gallery {
+			border: 1px solid #ccc;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		.responsive {
+			padding: 0 6px;
+			float: left;
+			width: 24.99999%;
+		}
+
+		@media only screen and (max-width: 700px){
+			.responsive {
+				width: 49.99999%;
+				margin: 6px 0;
+			}
+		}
+
+		@media only screen and (max-width: 500px){
+			.responsive {
+				width: 100%;
+			}
+		}
+
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
+	</head>
+	<body>
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="img_nature_wide.jpg" style="width:100%">
+				<div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="img_fjords_wide.jpg" style="width:100%">
+				<div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="img_mountains_wide.jpg" style="width:100%">
+				<div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+			}
+		</script>
+
+		<div class="container" style="background-image:('..meme.jpg');">
 		...
 	</div>
 
@@ -22,7 +137,7 @@
 				<div class="container">
 					<h2>Circle</h2>
 					<p>The .img-circle class shapes the image to a circle (not available in IE8):</p>
-					<img src="image/meme.jpg" class="img-circle" alt="me" width="358" height="638">
+					<img src="image/meme.jpg" class="img-meme.jpg" alt="me" width="358" height="638">
 				</div>
 				<div class="row">
 					<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
@@ -66,10 +181,116 @@
 				</div>
 			</div>
 		</div>
-	</body>
-</html>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="img1.jpg" style="width:100%">
+					<div class="text">Caption Text</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="img2.jpg" style="width:100%">
+					<div class="text">Caption Two</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="img3.jpg" style="width:100%">
+					<div class="text">Caption Three</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+
 
 <h1>Hello, world!</h1>
+			<h2>Responsive Image Gallery</h2>
+			<h4>Resize the browser window to see the effect.</h4>
+
+			<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="img_fjords.jpg">
+						<img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="img_forest.jpg">
+						<img src="img_forest.jpg" alt="Forest" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="img_lights.jpg">
+						<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<a target="_blank" href="img_mountains.jpg">
+						<img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div style="padding:6px;">
+				<p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+				<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+			</div>
+
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			}
+
+
+
+
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
