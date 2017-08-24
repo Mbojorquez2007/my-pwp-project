@@ -1,239 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 	<head>
-		<meta charset="utf-8"/>
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<title>Business Casual - Start Bootstrap Theme</title>
 
-		<!-- Theme CSS -->
-		<link href="../css/stylesheets.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheets">
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<!-- jQuery - reqiured for Bootstrap Components -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-				  crossorigin="anonymous"></script>
+		<!-- Custom fonts for this template -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheets" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheets" type="text/css">
+
+		<!-- Custom styles for this template -->
+		<link href="css/stylesheets.css" rel="stylesheets">
+
 	</head>
+
 	<body>
 
-		<div class="slideshow-container">
+		<div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business Casual</div>
+		<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="image/chef.jpg" style="width:100%">
-				<div class="text">Caption Text</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="image/meme.jpg" style="width:100%">
-				<div class="text">Caption Two</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="image/chef.jpg" style="width:100%">
-				<div class="text">Caption Three</div>
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		</div>
-		<br>
-
-		<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
-		</div>
-
-		<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-
-			function plusSlides(n) {
-				showSlides(slideIndex += n);
-			}
-
-			function currentSlide(n) {
-				showSlides(slideIndex = n);
-			}
-
-			function showSlides(n) {
-				var i;
-				var slides = document.getElementsByClassName("mySlides");
-				var dots = document.getElementsByClassName("dot");
-				if (n > slides.length) {slideIndex = 1}
-				if (n < 1) {slideIndex = slides.length}
-				for (i = 0; i < slides.length; i++) {
-					slides[i].style.display = "none";
-				}
-				for (i = 0; i < dots.length; i++) {
-					dots[i].className = dots[i].className.replace(" active", "");
-				}
-				slides[slideIndex-1].style.display = "block";
-				dots[slideIndex-1].className += " active";
-			}
-		</script>
-
-
-		<div class="container" style="background-image:('..meme.jpg');">
-		...
-	</div>
-
-		<div class="jumbotron text-center">
-			<div class="container-fluid">
-			<h1>Michelle Allen</h1>
-			<p>Hi I am a web developer</p>
-				<div class="container">
-					<h2>Excellence</h2>
-					<p></p>
-					<img src="image/meme.jpg" class="img-meme.jpg" alt="me" width="358" height="638">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+			<div class="container">
+				<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item active px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+						</li>
+					</ul>
 				</div>
-				<div class="row">
-					<div class="col-sm-4"></div>
+			</div>
+		</nav>
 
 		<div class="container">
-			<h2>Image Gallery</h2>
-			<p>Awsome stuff I have worked on</p>
-			<p>Things Im proud of</p>
-			<p>Things Im going to work on</p>
-			<div class="row">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<a href="image/michelle.jpg" target="_blank">
-							<img src="image/michelle.jpg" alt="Lights" style="width:100%">
-							<div class="caption">
-								<p>Inspired</p>
+
+			<div class="bg-faded p-4 my-4">
+				<!-- Image Carousel -->
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<img class="d-block img-fluid w-100" src="img/slide-1.jpg" alt="">
+							<div class="carousel-caption d-none d-md-block">
+								<h3 class="text-shadow">First Slide</h3>
+								<p class="text-shadow">This is the caption for the first slide.</p>
 							</div>
-						</a>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block img-fluid w-100" src="img/slide-2.jpg" alt="">
+							<div class="carousel-caption d-none d-md-block">
+								<h3 class="text-shadow">Second Slide</h3>
+								<p class="text-shadow">This is the caption for the second slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block img-fluid w-100" src="img/slide-3.jpg" alt="">
+							<div class="carousel-caption d-none d-md-block">
+								<h3 class="text-shadow">Third Slide</h3>
+								<p class="text-shadow">This is the caption for the third slide.</p>
+							</div>
+						</div>
 					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<a href="image/michelle.jpg" target="_blank">
-							<img src="image/michelle.jpg" alt="Nature" style="width:100%">
-							<div class="caption">
-								<p>Loyal, Honest</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<a href="image/meme.jpg" target="_blank">
-							<img src="image/mock1.jpg" alt="mock1" style="width:100%">
-							<div class="caption">
-								<p>Inovated</p>
-							</div>
-						</a>
+				<!-- Welcome Message -->
+				<div class="text-center mt-4">
+					<div class="text-heading text-muted text-lg">Welcome To</div>
+					<h1 class="my-2">Business Casual</h1>
+					<div class="text-heading text-muted text-lg">By
+						<strong>Start Bootstrap</strong>
 					</div>
 				</div>
 			</div>
+
+			<div class="bg-faded p-4 my-4">
+				<hr class="divider">
+				<h2 class="text-center text-lg text-uppercase my-0">Build a website
+					<strong>worth visitng</strong>
+				</h2>
+				<hr class="divider">
+				<img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
+			</div>
+
+			<div class="bg-faded p-4 my-4">
+				<hr class="divider">
+				<h2 class="text-center text-lg text-uppercase my-0">Beautiful boxes to
+					<strong>showcase your content</strong>
+				</h2>
+				<hr class="divider">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
+			</div>
+
 		</div>
-			<div class="slideshow-container">
-				<div class="mySlides fade">
-					<div class="numbertext">1 / 3</div>
-					<img src="image/mock3.jpg" style="width:100%">
-					<div class="text">sososo happy</div>
-				</div>
+		<!-- /.container -->
 
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 3</div>
-					<img src="image/mock4.jpg" style="width:100%">
-					<div class="text">beautiful</div>
-				</div>
-
-				<div class="mySlides fade">
-					<div class="numbertext">3 / 3</div>
-					<img src="image/mock3.jpg" style="width:100%">
-					<div class="text">Elegent</div>
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<footer class="bg-faded text-center py-5">
+			<div class="container">
+				<p class="m-0">Copyright &copy; Your Website 2017</p>
 			</div>
-			<br>
+		</footer>
 
-			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
-			</div>
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/popper/popper.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-
-
-			<h1>Hello, world!</h1>
-			<h2>My wonderful Gallery</h2>
-			<h4>works of art</h4>
-
-			<div class="responsive">
-				<div class="gallery">
-					<a target="_blank" href="image/mock4.jpg">
-						<img src="image/mock1.jpg" alt="Trolltunga Norway" width="300" height="200">
-					</a>
-					<div class="desc">Master</div>
-				</div>
-			</div>
-
-
-			<div class="responsive">
-				<div class="gallery">
-					<a target="_blank" href= <img src="image/chef.jpg" .">
-						<img src="image/chef.jpg" alt="chef" width="600" height="400">
-					</a>
-					<div class="desc">Add a description of the image here</div>
-				</div>
-			</div>
-
-			<div class="responsive">
-				<div class="gallery">
-					<a target="_blank" href="image/imgjpg">
-						<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-					</a>
-					<div class="desc">Add a description of the image here</div>
-				</div>
-			</div>
-
-			<div class="responsive">
-				<div class="gallery">
-					<a> target="_blank" src="image/michelle.jpg">
-						<img src="image/michelle.jpg" alt="Mountains" width="442" height="589">
-					</a>
-					<div class="desc">Add a description of the image here</div>
-				</div>
-			</div>
-
-			<div class="clearfix"></div>
-
-			<div style="padding:6px;">
-				<p>full stack web developer.</p>
-				<p>I look forward to working with you.</p>
-			</div>
-
-
-
-
-
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	</body>
+
 </html>

@@ -1,237 +1,66 @@
-* {box-sizing:border-box}
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
+/*!
+ * Start Bootstrap - Business Casual (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
 
-
-/* Next & previous buttons */
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-}
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
+h1, h2, h3, h4, h5, h6, .text-heading {
+	font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Caption text */
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
+h1 {
+	font-size: 4rem;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
+.tagline-upper {
+	font-size: 5rem;
+	font-weight: 700;
+	line-height: 1;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-	cursor:pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
+.tagline-lower {
+	font-size: 1.2rem;
+	line-height: 1;
 }
 
-.active, .dot:hover {
-	background-color: #717171;
+.text-expanded {
+	letter-spacing: 2px;
 }
 
-/* Fading animation */
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
+.text-shadow {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-@-webkit-keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
+.text-lg {
+	font-size: 1.25rem;
 }
 
-@keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
+.bg-faded {
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.prev, .next,.text {font-size: 11px}
+.bg-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
-
-/* Slideshow container */
-.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
+hr.divider {
+	border-color: #292b2c;
+	max-width: 250px;
 }
 
-.mySlides {
-	display: none;
+.map-container iframe {
+	pointer-events: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-	cursor:pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-	background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
-}
-
-@keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
-}
-
-div.gallery {
-	border: 1px solid #ccc;
-}
-
-div.gallery {
-
- size: 1px;
- color: #777;
-}
-
-div.gallery img {
-	width: 100%;
-	height: auto;
-}
-
-div.desc {
-	padding: 15px;
-	text-align: center;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-.responsive {
-	padding: 0 6px;
-	float: left;
-	width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-	.responsive {
-		width: 49.99999%;
-		margin: 6px 0;
-	}
-}
-
-@media only screen and (max-width: 500px){
-	.responsive {
-		width: 100%;
-	}
-}
-
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.col-sm-4 {
-	background-color:lavender;
-
+.map-container iframe.clicked {
+	pointer-events: auto;
 }
