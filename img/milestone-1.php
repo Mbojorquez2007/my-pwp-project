@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1>Jasmine</h1>
-		<img src="image/chef.jpg" alt="chef">
+		<img src="../../../startbootstrap-business-casual/img/chef.jpg" alt="chef">
 		<p>Purpose: To expose my professional talents to a broader audience. My interest is in working with freelance clients in the food,beverage,and hospitality industry
 			Audience: This project is to attract business owners who need a web developer or a company that is hiring a web developer.</p>
 		<p>Jasmine is new to New Mexico and needs help designing
