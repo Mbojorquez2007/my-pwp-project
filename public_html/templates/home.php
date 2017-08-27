@@ -1,0 +1,1 @@
+<h1>This is the Angular home page template.</h1>

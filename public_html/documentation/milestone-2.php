@@ -9,10 +9,10 @@
 		<p>My stratagy is to format my pwp to allow people to see my name profile and showcase my work</p>
 		<p>My site will have a way to contact me and ask questions</p>
 		<h1>Head Piece</h1>
-		<img src="mock1.jpg" alt="mock1">
-		<img src="mock2.jpg" alt="mock2">
-		<img src="mock3.jpg" alt="mock3">
-		<img src="mock4.jpg" alt="mock4">
+		<img src="../../static-ui/img/mock1.jpg" alt="mock1">
+		<img src="../../static-ui/img/mock2.jpg" alt="mock2">
+		<img src="../../static-ui/img/mock3.jpg" alt="mock3">
+		<img src="../../static-ui/img/mock4.jpg" alt="mock4">
 		<p>This will have my photo a label saying Hi Im a web developer and i will have a content bar
 			that will allow users to go to different sections.</p>
 		<h1>The About Me section</h1>
