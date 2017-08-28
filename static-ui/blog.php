@@ -37,18 +37,18 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav mx-auto">
 						<li class="nav-item px-lg-4">
-							<a class="nav-link text-uppercase text-expanded" href="index.html">Home
+							<a class="nav-link text-uppercase text-expanded" href="index.php">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item px-lg-4">
-							<a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+							<a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
 						</li>
 						<li class="nav-item active px-lg-4">
-							<a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
+							<a class="nav-link text-uppercase text-expanded" href="blog.php">Blog</a>
 						</li>
 						<li class="nav-item px-lg-4">
-							<a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+							<a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</div>

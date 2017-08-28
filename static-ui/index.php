@@ -52,14 +52,14 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid w-100" src="img/slide-2.jpg" alt="">
+						<img class="d-block img-fluid w-100" src="img/particles-1373684_640.jpg" alt="particles">
 						<div class="carousel-caption d-none d-md-block">
 							<h3 class="text-shadow">Second Slide</h3>
 							<p class="text-shadow">This is the caption for the second slide.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid w-100" src="img/slide-3.jpg" alt="">
+						<img class="d-block img-fluid w-100" src="img/lights-2551274_640.jpg" alt="lights">
 						<div class="carousel-caption d-none d-md-block">
 							<h3 class="text-shadow">Third Slide</h3>
 							<p class="text-shadow">This is the caption for the third slide.</p>
