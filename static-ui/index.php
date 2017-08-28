@@ -2,13 +2,13 @@
 <?php require_once("lib/footer.php");?>
 <body>
 
-	<div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Business Casual</div>
-	<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+	<div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Unisus</div>
+	<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">1234 Melrose Place | Albuquerque, NM 87105 | 123.456.7890</div>
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
 		<div class="container">
-			<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+			<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Unisus</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -78,9 +78,9 @@
 			<!-- Welcome Message -->
 			<div class="text-center mt-4">
 				<div class="text-heading text-muted text-lg">Welcome To</div>
-				<h1 class="my-2">Business Casual</h1>
+				<h1 class="my-2">Unisus</h1>
 				<div class="text-heading text-muted text-lg">By
-					<strong>Start Bootstrap</strong>
+					<strong>Danielle & Michelle</strong>
 				</div>
 			</div>
 		</div>
@@ -112,7 +112,7 @@
 
 	<footer class="bg-faded text-center py-5">
 		<div class="container">
-			<p class="m-0">Copyright &copy; Your Website 2017</p>
+			<p class="m-0">Copyright &copy; Unisus 2017</p>
 		</div><!-- insert footer -->
 		<?php require_once("lib/footer.php");?>
 	</footer>
