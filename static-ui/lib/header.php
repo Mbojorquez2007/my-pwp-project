@@ -19,10 +19,10 @@
 					<a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
 				</li>
 				<li class="nav-item px-lg-4">
-					<a class="nav-link text-uppercase text-expanded" href="blog.php">Blog</a>
+					<a class="nav-link text-uppercase text-expanded" href="../blog.php">Blog</a>
 				</li>
 				<li class="nav-item px-lg-4">
-					<a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
+					<a class="nav-link text-uppercase text-expanded" href="../contact.php">Contact</a>
 				</li>
 			</ul>
 		</div>
